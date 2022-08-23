@@ -1,0 +1,3 @@
+<button *ngFor="let category of categories" [class]="getBtnClass(category)" (click)="selectCategory.emit(category)">
+    {{ category }}
+</button>
