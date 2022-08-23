@@ -1,27 +1,28 @@
-# Angularapp
+Angular、React、Vue 是三個最受歡迎的前端框架，接下來的三篇筆記分別要紀錄使用這三個不同的框架來建立功能一模一樣的網路應用程式。， 而在本篇筆記中是使用 Angular(14) 來建立 Web APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+這個網路應用程式的需求
+- 産品訂購功能
+    - 表頭：訂購商品總數、總額及送出訂單功能
+    - 商品過濾功能：依産品類別來顯示商品
+    - 商品清單：顯示商品明細、商品售價、訂購數量下拉選單及加入購物車等功能
+- 訂單確認功能：顯示訂購商品明細及總金額
+- 訂購成功功能：顯示訂購完成資訊
 
-## Development server
+![image](https://user-images.githubusercontent.com/21993717/185827887-9df81f19-49fa-4948-adc3-1851acf9dc5a.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![image](https://user-images.githubusercontent.com/21993717/185831273-8dd2f971-ea12-4151-aed7-294303430af9.png)
 
-## Code scaffolding
+![2022-08-22 11-12-24 的螢幕擷圖](https://user-images.githubusercontent.com/21993717/185831337-ca82deea-dacf-4c88-b3f3-83110f30cb12.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![2022-08-22 11-13-51 的螢幕擷圖](https://user-images.githubusercontent.com/21993717/185831442-f3cfe442-673f-4be6-b3e1-a5e71c45533b.png)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+使用技術:
+- Angular 14
+- Bootstrap 5 (UI Framework)
+- Angular 
+    - Router
+    - Services
+- NodeJS & Express
+- json-server
+- npm-run-all (npm 套件)
